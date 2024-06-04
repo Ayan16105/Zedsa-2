@@ -1,0 +1,81 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+ } 
+ a{
+  text-decoration: none;
+  color:aliceblue;
+ }
+
+ /* RIPPLE */
+.ripple{
+  height: 100%;
+  width: 100%;
+}
+/* NAVBAR */
+.navbar-brand h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 45px;
+    font-weight:600;
+    /* padding: 0px 0px 0px 5rem; */
+}
+.navbar-nav{
+    width: 40rem;
+    font-weight: 400;
+}
+
+.nav-link{
+    color:whitesmoke;
+}
+.nav-link:hover,
+.nav-item a.active
+{
+  color: orangered !important;
+}
+a:hover{
+    color: orangered !important; 
+}
+
+/* HERO  */
+.hero-wrapper{
+    height: 90vh;
+}
+.hero{
+    height: 100vh;  
+  }
+
+.hero-img{
+  background-image: url(Assets/Images/download.png);
+  background-size: cover;
+  border-radius: 15px !important;
+}
+
+.social{
+    -webkit-writing-mode: vertical-lr;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    display: flex;
+}
+.social_links{
+    list-style: none;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+.social_links a{
+    text-decoration: none;
+}
+
+
+@media(max-width:992px)
+{
+    .icon{
+        display: none;
+    }
+    .social{
+        display:none;
+    }
+}
